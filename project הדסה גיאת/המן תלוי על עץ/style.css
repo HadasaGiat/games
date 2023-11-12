@@ -1,0 +1,70 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(120, 183, 183);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.subject_but{
+    width: 200px;
+    height: 70px;
+    border: 2px black solid;
+    font-size: xx-large; 
+}
+.gussiClass{
+    width: 30px;
+    height: 30px; 
+    border: 2px black solid;
+    display: inline-flex;
+}
+
+#id_amanHTML{
+    text-align: center;
+}
+.classImage{
+    width: 100px;
+    height: 200px; 
+    border: 2px black solid;
+}
+img {
+    height: 510px;
+    width: 340px;
+    display: none;   
+
+}
+#myPid{
+  
+    font-size: xx-large;
+}
+
+#contain{
+    font-size: 200px;
+}
+#theWinner{ 
+    font-size:150px;
+    direction: rtl;
+    color: brown;  
+}
+
+.pictureCover {
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 0;
+}
+#pictureCoverwrapper {
+    display: grid;
+    position: absolute;
+    height: 510px;
+    width: 340px;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 34% 34% 34%;
+    z-index: 99999;
+    display: none;
+    box-shadow: rgb(0,0,0,0.3) 10px 4px;
+}
+
+

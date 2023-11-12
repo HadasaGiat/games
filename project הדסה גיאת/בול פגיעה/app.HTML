@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.js"></script>
+    <title>משחק בול פגיעה</title>
+</head>
+<body id="id_bulHtml">
+    <h1>wellcone</h1>
+    <input type="button" value="1-רמה" onclick="level_(4)" id="level1" />
+    <input type="button" value="2-רמה" onclick="level_(8)" id="level2"/>
+    <input type="button" value="3-רמה" onclick="level_(10)" id="level3"/>
+    <p id="id_begining"></p>
+    <input id="inputColor" type="color" onchange="chooseColor(event)" />
+    <section id="id_section">
+        <aside id="my_side"></aside>
+    </section>
+    <input type="button" value="לתור נוסף " id="turnBtn" onclick="addTurn()" />
+    <div id="id_contain"></div>
+</body>
+</html>
